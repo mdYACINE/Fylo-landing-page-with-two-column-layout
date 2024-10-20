@@ -1,0 +1,613 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Open Sans", sans-serif; 400
+font-family: "Raleway", sans-serif; 400/700*/
+
+*{
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ 
+
+header{
+    margin: 20px 80px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+ul li{
+    margin-left: 60px;
+}
+ul a{
+    color: hsl(243, 87%, 12%);
+    text-decoration: none;
+}
+
+
+.content1{
+    margin: 20px 80px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.text1{
+    margin-top: 50px;
+    width: 50%;
+}
+
+.text1 h2{
+    color: hsl(243, 87%, 12%);
+    font-size: 40px;
+    line-height: 140%;
+}
+
+.text1 p{
+    font-size: 20px;
+    margin: 20px 0;
+    color: hsl(243, 87%, 12%);
+}
+
+.btn1{
+    padding: 15px 65px;
+    background-color:  hsl(224, 93%, 58%);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-weight: 500;
+}
+.inp1{
+    padding: 15px 180px 15px 20px;
+    margin-right: 10px;
+    border-radius: 2px;
+    border: 1px solid;
+}
+
+.pic1 img, .pic2 img{
+    width: 600px;
+}
+
+
+.content2{
+    background: url(images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.content2 article{
+    
+    background-color: #F9F8FE;
+    margin-top: 100px;
+
+}
+.pic2{
+    margin-top: 100px;
+    background-color: #F9F8FE;
+    
+
+}
+.content2 h2{
+    color: hsl(243, 87%, 12%);
+    margin: 20px 80px;
+    font-size: 40px;
+}
+.content2 .p1{
+    color: hsl(238, 22%, 44%);
+    margin: 40px 80px;
+    font-size: 17px;
+    width: 70%;
+
+}
+.content2 .p2{
+    
+
+    font-size: 17px; 
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    color:  hsl(170, 45%, 43%);
+    padding-right: 5px;
+}
+.greentext{
+    margin: 0px 80px;
+    display: flex;
+    align-items: center;
+    
+}
+.box{
+    margin: 50px 80px 100px 80px;
+    max-width: 350px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 40px rgba(218, 218, 218, 0.31);
+    border-radius: 10px;
+}
+.box p {
+    font-size: 15px;
+    line-height: 150%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box p img{
+    margin: 10px 0;
+}
+.person img{
+    width: 40px;
+    border-radius: 50%;
+}
+.person{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 20px 0 10px 25px;
+}
+.person p{
+    font-size: 12px;
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+.content3{
+    background-color: hsl(238, 22%, 44%);
+    color: white;
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content3 .text{
+    width: 70%;
+    margin-right: 80px;
+}
+.content3 h2{
+    font-size: 30px;
+}
+.content3 p{
+    margin-top: 20px;
+    font-size: 17px;
+    margin-bottom: 20px;
+    width: 75%;
+    line-height: 150%;
+}
+
+.btn2{
+    padding: 15px 35px;
+    background-color:  hsl(224, 93%, 58%);
+    color: white;
+    border: none;
+    margin-top: 15px;
+    border-radius: 2px;
+    font-weight: 500;
+}
+.inp2{
+    padding: 15px 300px 15px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+    border-radius: 2px;
+}
+
+
+
+
+
+footer{
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    padding: 80px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.icon{
+    width: 20px;
+}
+.logo2{
+    margin-bottom: 10px; 
+    filter:  brightness(0) invert(1);
+}
+
+footer a{
+color: white;
+text-decoration: none;
+display: block;
+padding: 10px 0;
+}
+footer p{
+    padding: 10px 0;
+}
+.content4{
+    display: flex;
+    justify-content:space-between;
+    max-width: 90%;
+}
+.icons{
+    display: flex;
+}
+.icons a{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.btn1:hover, .btn2:hover{
+    background-color: hsl(224, 90%, 64%);
+    cursor: pointer;
+}
+
+@media (max-width:1326px){
+    .btn1{
+        margin-top: 10px;
+    }
+}
+
+
+@media (max-width:1260px){
+    .content2 article{
+        margin-top: 70px;
+    }
+    .pic2{
+        margin-top: 70px;
+    }
+
+    .pic1 img, .pic2 img{
+        width: 100%;
+    }
+    .text1 {
+        width: 100%;
+    }
+    .content3 p{
+        width: 100%;
+    }
+} 
+
+@media (max-width:888px){
+    .content2 article{
+        margin-top: 50px;
+    }
+    .pic2{
+        margin-top: 50px;
+    }
+
+    .text1 h2{
+        font-size: 30px;
+        line-height: 130%;
+    }
+    .text1 p{
+        font-size: 15px;
+        margin-right: 10px;
+    }
+
+
+
+
+    .content2 .p1{
+        font-size: 15px;
+    }
+    .content2 .p2{
+        font-size: 15px; 
+    }
+
+
+    .box{
+        max-width: 100%;
+    }
+    .box p {
+        font-size: 14px;
+        line-height: 150%;
+
+    }
+    .person p{
+        font-size: 10px;
+    }
+    .content3{
+        padding: 50px;
+    }
+   
+    .content3 p{
+        font-size: 15px;
+    }
+    .icon{
+        width: 13px;
+    }
+    .content4 a{
+      font-size: 14px;
+    }
+}
+
+
+@media (max-width:800px){
+
+    header{
+        padding: 20px 0;
+    }
+
+    
+    .content1, .content2{
+        flex-direction: column-reverse;
+    }
+    .text1{
+       text-align: center;
+       width: 100%;
+    }
+    .btn1{
+        width: 90%;
+     }
+     .inp1{
+         padding: 10px 5%;
+         width: 80%;
+         margin-right: 0;
+         margin-top: 20px;
+     }
+    .content2 {
+       background:url(images/bg-curve-mobile.svg), linear-gradient(  white   , #F9F8FE 50%);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+  
+    .pic2{
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+    }
+     .pic2 img{
+      width: 80%;
+
+    }
+    .content2 h2{
+        font-size: 25px;
+        text-align: center;
+    }
+    .greentext{
+        justify-content: center;
+    }
+
+    .content3{
+        display: flex;
+        flex-direction: column;
+    }
+    .content3 .text{
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+    }
+    .content3 p{
+        width: 100%;
+    }
+    .inputs2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .btn2{
+        padding: 15px 5%;
+        width: 80%;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    .inp2{
+        padding: 15px 5%;
+        margin-right: 0;
+        width: 70%;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    .content4{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .logo2{
+        margin-bottom: 25px; 
+    }
+    
+    .content4 div{
+        margin-bottom: 30px;
+    }
+    .icons{
+        justify-content: center;
+        width: 100%;
+    }
+    .icons a{
+        margin-left: 20px;
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width:661px){
+    header{
+        margin: 20px 50px;
+    }
+    ul a{
+        font-size: 14px;
+    }
+    .logo{
+        width: 150px;
+    }
+    ul li{
+        margin-left: 40px;
+    }
+    .btn1{
+       width: 100%;
+    }
+    .inp1{
+        padding: 10px 5%;
+        width: 90%;
+        margin-right: 0;
+        margin-top: 0;
+
+    }
+   
+    .btn2{
+        padding: 10px 0;
+        margin-top: 15px;
+        width: 80%;
+    }
+    .inp2{
+        padding: 10px 5%;
+        margin-right: 0;
+        width: 70%;
+    }
+    .icons a{
+        margin-left: 20px;
+        font-size: 25px;
+    }
+}
+
+
+
+
+@media (max-width:564px){
+    header{
+        padding: 20px 0;
+        margin: 20px 30px;
+
+    }
+    .logo{
+        width: 120px;
+    }
+    ul a{
+        font-size: 16px;
+    }
+    ul li{
+        margin-left: 20px;
+    }
+    .content1{
+        margin: 100px 0 20px 0;
+        align-items: center;
+    }
+    .pic1 img, .pic2 img{
+        width: 400px;
+    }
+    .text1{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+    .text1 h2{
+        font-family: "Open Sans", sans-serif;
+        font-size: 32px;
+        line-height: 150%;
+    }
+    .text1 p{
+        font-family: "Open Sans", sans-serif;
+        font-size: 18px;
+        line-height: 150%;
+        width: 85%;
+        margin-top: 30px;
+    }
+  
+    .inp1{
+        padding: 20px;
+        margin-right: 0;
+        width: 80%;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    .btn1{
+        padding: 20px 60px;
+        width: 90%;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+
+    .content2{
+        margin-top: 150px;
+    }
+    
+    .pic2{
+        margin-top: 40px;
+    }
+    .content2 article{
+        margin-top: 0;
+    }
+    .content2 h2{
+        font-family: "Open Sans", sans-serif; 
+        margin: 100px 55px 20px 55px;
+        font-size: 20px;
+    }
+    .content2 .p1{
+        font-family: "Open Sans", sans-serif; 
+        margin: 40px 20px;
+        font-size: 17px;
+        width: 95%;
+    }
+    .box{
+        margin: 50px 60px 100px 60px;
+    }
+    .person img{
+        width: 32px;
+        border-radius: 50%;
+    }
+   
+    .content3 h2{
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    .content3 p{
+        font-family: "Open Sans", sans-serif;
+        margin-top: 30px;
+        font-size: 20px;
+    }
+
+    .icons a{
+        margin-left: 20px;
+        font-size: 25px;
+    }
+}
+@media (max-width:455px){
+    body{
+        zoom: 90%;
+    }
+}
+@media (max-width:409px){
+    body{
+        zoom: 80%;
+    }
+    .text1 p{
+        font-family: "Open Sans", sans-serif;
+        font-size: 18px;
+        line-height: 150%;
+        width: 90%;
+        margin-top: 30px;
+    }
+    .content2 h2{
+        margin: 100px 0 0 0;
+    }
+    .content3 p{
+        font-size: 19px;
+    }
+    .logo2{
+        width: 220px;
+    }
+    footer{
+        padding: 80px 50px;
+    }
+    .content4 a , .content4 p{
+        font-family: "Open Sans", sans-serif;
+        font-size: 20px;
+      }
+      .icon{
+        width: 20px;
+        margin-right: 10px;
+      }
+      .icons a{
+        margin-left: 20px;
+        font-size: 25px;
+    }
+
+} 
+
